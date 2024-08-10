@@ -24,7 +24,7 @@ URL: https://pkgs.rstudio.com/gradethis/,
     https://github.com/rstudio/gradethis
 BugReports: https://github.com/rstudio/gradethis/issues
 Depends:
-    R (>= 3.2.0)
+    R (>= 4.3.1)
 Imports:
     checkmate,
     commonmark,
@@ -52,7 +52,7 @@ VignetteBuilder:
     knitr
 Remotes:
     rstudio/ggcheck,
-    rstudio/learnr
+    jarvisc1/learnr
 Config/Needs/connect: rsconnect
 Config/Needs/coverage: covr
 Config/Needs/website: pkgdown, tidyverse/tidytemplate
@@ -61,4 +61,4 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2

@@ -253,7 +253,7 @@ resolve_placeholder <- function(
   )
 }
 
-# @export
+#' @export
 print.gradethis_placeholder <- function(x, ...) {
   type <- class(x)[1]
   desc <- placeholder_definition(type)
